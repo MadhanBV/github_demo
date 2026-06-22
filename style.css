@@ -1,1 +1,31 @@
-# a new feature to ne maintained
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+  color: #1f2937;
+}
+
+main {
+  max-width: 640px;
+  margin: 80px auto;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#status {
+  min-height: 1.2em;
+  margin-top: 12px;
+  font-weight: 600;
+}
